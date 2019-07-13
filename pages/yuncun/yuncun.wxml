@@ -1,0 +1,22 @@
+
+<view class="container" style="padding:0rpx">
+
+<view class="userinfo">
+<image class='userBg' src="{{images}}"></image>
+<view class='userContent'>
+
+<view class="userinfo-avatar" background-size="cover">
+<open-data type="userAvatarUrl"></open-data></view>
+</view>
+</view>
+
+<view class="comment">
+<view class="content">{{comment_content}}</view>
+<view class="content">{{author}}</view>
+<view class="content">{{description}}</view>
+<view class="content">{{title}}</view>
+
+</view>
+
+
+</view>

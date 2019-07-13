@@ -1,0 +1,17 @@
+
+<view class="page__bd">
+<view class="section__ctn">
+<image src="{{photos}}"></image>
+
+</view>
+ </view>
+
+<view class="upload">
+  <form bindsubmit="uploadImg">
+    <button bindtap="chooseImg">点击选择图片</button>
+    
+    <button form-type="submit">识别</button>
+    
+  </form>
+</view>
+<view class="content">{{content}}</view>
